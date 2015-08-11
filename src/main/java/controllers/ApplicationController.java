@@ -34,15 +34,27 @@ public class ApplicationController {
     public Result helloWorldJson() {
         
         SimplePojo simplePojo = new SimplePojo();
-        simplePojo.content = "Hello World! Hello Json!";
+        simplePojo.content = "这是我的第一行Hello World! Hello Json! Hello Amos <~~(||)~~>";
 
-        return Results.json().render(simplePojo);
+        return Results.json().render(simplePojo);//json()方法研究一下
 
     }
-    
-    public static class SimplePojo {
+    public Result myhelloWorld() {
+        MyFrist myFrist=new MyFrist();
+        myFrist.frist ="世界,你好[-Y-]握手成功";
 
+        return Results.json().render(myFrist);
+
+    }
+
+
+    //定义一个静态class
+    public static class SimplePojo {
+        //一个字符串类型的 content;
         public String content;
         
+    }
+    public static class MyFrist {
+        public String frist;
     }
 }
