@@ -35,6 +35,7 @@ public class ApplicationController {
         
         SimplePojo simplePojo = new SimplePojo();
         simplePojo.content = "这是我的第一行Hello World! Hello Json! Hello Amos <~~(||)~~>";
+        simplePojo.heihei="=哈哈,下班回家吃饭";
 
         return Results.json().render(simplePojo);//json()方法研究一下
 
@@ -52,6 +53,7 @@ public class ApplicationController {
     public static class SimplePojo {
         //一个字符串类型的 content;
         public String content;
+        public String heihei;
         
     }
     public static class MyFrist {
