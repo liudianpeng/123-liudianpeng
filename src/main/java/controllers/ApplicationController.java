@@ -41,7 +41,7 @@ public class ApplicationController {
     }
     public Result myhelloWorld() {
         MyFrist myFrist=new MyFrist();
-        myFrist.frist ="世界,你好[-Y-]握手成功";
+        myFrist.frist ="世界,你好[-Y-]握手成功-哈哈哈哈哈(-_-)||(>_<)";
 
         return Results.json().render(myFrist);
 
