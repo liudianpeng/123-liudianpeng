@@ -20,6 +20,8 @@ import ninja.Result;
 import ninja.Results;
 
 import com.google.inject.Singleton;
+import ninja.params.Param;
+import ninja.params.PathParam;
 
 
 @Singleton
@@ -45,6 +47,14 @@ public class ApplicationController {
         myFrist.frist ="世界,你好[-Y-]握手成功-哈哈哈哈哈(-_-)||(>_<)";
 
         return Results.json().render(myFrist);
+
+    }
+    public Result test (
+            @Param("name") String nanme){
+        MyFrist name=new MyFrist();
+        if (name==null){return Results.notFound();}
+        name.frist="哈哈我的名字";
+        return Results.html().render("name",name);
 
     }
 
