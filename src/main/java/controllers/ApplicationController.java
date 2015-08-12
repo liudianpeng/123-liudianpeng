@@ -16,6 +16,7 @@
 
 package controllers;
 
+import ninja.Context;
 import ninja.Result;
 import ninja.Results;
 
@@ -37,7 +38,7 @@ public class ApplicationController {
         
         SimplePojo simplePojo = new SimplePojo();
         simplePojo.content = "这是我的第一行Hello World! Hello Json! Hello Amos <~~(||)~~>";
-        simplePojo.heihei="=哈哈,下班回家吃饭";
+        simplePojo.heihei="=哈哈,下班回家吃饭aaaa";
 
         return Results.json().render(simplePojo);//json()方法研究一下
 
@@ -49,14 +50,13 @@ public class ApplicationController {
         return Results.json().render(myFrist);
 
     }
-    public Result test (
-            @Param("name") String nanme){
-        MyFrist name=new MyFrist();
-        if (name==null){return Results.notFound();}
-        name.frist="哈哈我的名字";
-        return Results.html().render("name",name);
+    public Result test  (
+            @Param("name") String name){
+        return Results.json().render("name",name);
 
     }
+
+
 
 
     //定义一个静态class

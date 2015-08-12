@@ -32,7 +32,7 @@ public class Routes implements ApplicationRoutes {
         router.GET().route("/hello_world.json").with(ApplicationController.class, "helloWorldJson");
         router.GET().route("/hello_world_myfrist").with(ApplicationController.class,"myhelloWorld");
 
-        router.GET().route("/wodemingzi/{name:[0-9]+}/haha").with(ApplicationController.class,"test");
+        router.GET().route("/wodemingzi/{name}/haha").with(ApplicationController.class,"test");
         // a GET request to "/" will be redirect to "/dashboard"
         router.GET().route("/").with(Results.redirect("/dashboard"));
 
