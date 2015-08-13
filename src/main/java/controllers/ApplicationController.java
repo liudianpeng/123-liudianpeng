@@ -50,10 +50,22 @@ public class ApplicationController {
         return Results.json().render(myFrist);
 
     }
-    public Result test  (
-            @Param("name") String name){
-        return Results.json().render("name",name);
 
+    //测试不成功：测试一下route路径里为何不显示值
+    public Result test1  (
+            @Param("niado") String  w){
+            MyFrist myFrist=new MyFrist();
+            myFrist.frist="nihaoaaaaa";
+            w="123";
+
+        return Results.json().render("niaho",myFrist).render("nameeee", myFrist).render("hah",w);
+
+    }
+//测试不成功：测试render是如何返回值的
+    public Result test ( Context context){
+        MyFrist myFrist=new MyFrist();
+        myFrist.frist="我在哪里,要去哪里?";
+        return Results.html().render("haha",myFrist.frist);
     }
 
 
