@@ -30,7 +30,7 @@ public class ApplicationController {
 
     public Result index() {
 
-        return Results.html();
+        return Results.notFound().render("/system/404notFound.ftl.html");
 
     }
     
@@ -53,7 +53,10 @@ public class ApplicationController {
 
     //测试不成功：测试一下route路径里为何不显示值
     public Result test1  (
-            @Param("niado") String  w){
+            @Param("niado") String  w,
+            @PathParam("w") String ww,
+            @PathParam("id") String id,
+            @PathParam("email") String email){
             MyFrist myFrist=new MyFrist();
             myFrist.frist="nihaoaaaaa";
             w="123";
