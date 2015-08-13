@@ -1,0 +1,14 @@
+<#import "../layout/defaultLayout.ftl.html" as layout> 
+<@layout.myLayout "Home page">
+
+    <div class="row" style="margin:auto; text-align:center;" >
+        <div class="col-md-12 person-legend">
+            <h1>${i18n("hello.world")}</h1>
+            <p>${i18n("hello.world.json")}</p>
+            <a href="/hello_world.json">Hello World Json</a>
+            <br>
+            <a href="/hello_world_myfrist">欢迎点击</a>
+            </div>
+        </div>
+
+</@layout.myLayout>

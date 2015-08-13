@@ -1,0 +1,10 @@
+ass
+build/
+target/
+out/
+slackend-kos.iml
+.idea
+/*.iml 
+slackend-wei-jail.iml
+node_modules
+npm-debug.log
