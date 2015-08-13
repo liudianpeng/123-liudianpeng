@@ -38,7 +38,7 @@ public class Routes implements ApplicationRoutes {
 
         }
 
-//        router.GET().route("/").with(ApplicationController.class, "index");
+        router.GET().route("/").with(ApplicationController.class, "index");
         router.GET().route("/hello_world.json").with(ApplicationController.class, "helloWorldJson");
         router.GET().route("/hello_world_myfrist").with(ApplicationController.class,"myhelloWorld");
         router.GET().route("/nihao/nihao").with(ApplicationController.class,"index");
@@ -46,7 +46,7 @@ public class Routes implements ApplicationRoutes {
         router.GET().route("/wodemingzi/{name}").with(ApplicationController.class,"test1");
         router.GET().route("/wodemingzi/{w}/haha").with(ApplicationController.class,"test");
         // a GET request to "/" will be redirect to "/dashboard"
-        router.GET().route("/").with(Results.redirect("/dashboard"));
+//        router.GET().route("/").with(Results.redirect("/dashboard"));
 
         // show a static page
         router.GET().route("/dashboard").with(Results.html().template("/dashboard.html"));
