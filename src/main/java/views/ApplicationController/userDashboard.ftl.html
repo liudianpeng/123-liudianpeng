@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>测试失败告终</title>
+</head>
+<body>
+<table class="form">
+    <tr>
+        <th><label for="name"> Name </label></th>
+        <td><input class="input_full" type="text" id="name" name="name" />
+
+        </td>
+    </tr>
+    <tr>
+        <th><label for="email"> Email </label></th>
+        <td><input class="input_full" type="email" id="email"
+                   name="email" /></td>
+    </tr>
+
+    <tr>
+        <th><label for="description"> Description </label></th>
+        <td><input class="input_full" type="text" id="description"
+                   name="description" /></td>
+    </tr>
+
+    <tr>
+        <th><label for="id"> ID number </label></th>
+        <td><input class="input_full" type="number" id="id"
+                   name="id" /></td>
+    </tr>
+</table>
+
+<p>
+    <input type="submit" value="Send" /> <input type="reset"
+                                                value="Reset">
+</p>
+
+<#if email??><h1>hi ${email}</h1></#if>
+
+<#if id??><p>Your id seems to be: ${id}</p></#if>
+</body>
+</html>

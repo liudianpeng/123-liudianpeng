@@ -18,14 +18,16 @@ package conf;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.Singleton;
+import com.sun.javafx.font.Metrics;
 
 @Singleton
 public class Module extends AbstractModule {
     
-
+    @Override
     protected void configure() {
-        
+
         // bind your injections here!
+
         
     }
 

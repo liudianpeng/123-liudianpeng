@@ -33,6 +33,18 @@ public class ApplicationController {
         return Results.notFound().render("/system/404notFound.ftl.html");
 
     }
+
+//    测试html页面显示内容；失败
+    public Result userDashboard(
+            @PathParam("email") String email,
+//            @PathParam("id") Integer id,
+            Context context){
+        Result result=Results.html();
+//        result.render("id",Integer.toString(id));
+        result.render("email",email);
+
+        return result;
+    }
     
     public Result helloWorldJson() {
         
