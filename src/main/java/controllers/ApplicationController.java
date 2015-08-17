@@ -16,6 +16,7 @@
 
 package controllers;
 
+import models.Contact;
 import ninja.Context;
 import ninja.Result;
 import ninja.Results;
@@ -90,6 +91,27 @@ public class ApplicationController {
         return Results.html();
     }
 
+//    测试一个表单的提交,重点是测试一下在相应的view里面能不能显示出来
+    public Result newContactForm(Context context,
+                                  Contact contact){
+        return Results.html().render(contact);
+    }
+
+    public Result postContactForm(Context context,
+                                 Contact contact){
+        return Results.html().render(contact);
+    }
+
+
+    public Result getContactForm(Context context,
+                                  Contact contact){
+        contact.getName();
+        contact.getEmail();
+        contact.description="niha";
+        contact.id=1;
+        return Results.html().render(contact);
+    }
+/////////////////////////////////////////////////////////////////
 
 
 
