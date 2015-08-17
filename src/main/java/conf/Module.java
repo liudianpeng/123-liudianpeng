@@ -27,6 +27,10 @@ public class Module extends AbstractModule {
     protected void configure() {
 
         // bind your injections here!
+//        为什么报错呢??MerticsModule
+//        protected void configure(){
+//            install(new MetricsModule());
+//        }
 
         
     }

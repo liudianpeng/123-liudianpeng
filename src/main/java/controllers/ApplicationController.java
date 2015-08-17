@@ -23,6 +23,7 @@ import ninja.Results;
 import com.google.inject.Singleton;
 import ninja.params.Param;
 import ninja.params.PathParam;
+import ninja.session.FlashScope;
 
 
 @Singleton
@@ -82,6 +83,13 @@ public class ApplicationController {
         myFrist.frist="我在哪里,要去哪里?";
         return Results.html().render("haha",myFrist.frist);
     }
+
+//    设置messageKeySuccess
+    public Result flashSuccess(FlashScope flashScope){
+        flashScope.success("messageKeySuccess");
+        return Results.html();
+    }
+
 
 
 
