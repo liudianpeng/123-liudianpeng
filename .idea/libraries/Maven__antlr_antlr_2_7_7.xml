@@ -2,6 +2,11 @@
   <library name="Maven: antlr:antlr:2.7.7">
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/poi-3.13-20150929.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/dom4j-1.6.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/poi-ooxml-3.13-20150929.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/poi-ooxml-schemas-3.13-20150929.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/xmlbeans-2.6.0.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7-javadoc.jar!/" />
