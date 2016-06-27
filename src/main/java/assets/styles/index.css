@@ -1,0 +1,14 @@
+.person-legend {
+    min-width: 800px;
+    padding-top: 30px;
+    /*background-color: #f00;*/
+}
+.table-overflow{
+    display: block;
+    overflow-x: scroll;
+}
+.table tr{}
+.table-overflow tr th, .table-overflow tr td{  width: auto; text-align: center; white-space: nowrap}
+.float{ float: left;}
+#PageRefresh{color: #0066bb; cursor: pointer;}
+#name1{ color: #0066bb; cursor: pointer;}

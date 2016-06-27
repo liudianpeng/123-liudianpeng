@@ -1,0 +1,43 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href='/assets/vendor/FlexPaper/css/flexpaper.css?v=0.01' rel='stylesheet' type='text/css' />
+    <script src='/assets/vendor/FlexPaper/js/jquery.min.js?v=0.01' type='text/javascript'></script>
+    <script src='/assets/vendor/FlexPaper/js/flexpaper.js?v=0.01' type='text/javascript'></script>
+    <script src='/assets/vendor/FlexPaper/js/flexpaper_handlers.js?v=0.01' type='text/javascript'></script>
+</head>
+<body>
+<div style="position:absolute;left:10px;top:10px;">
+    <a id="viewerPlaceHolder" style="width:1260px;height:780px;display:block"></a>
+    <script type="text/javascript">
+        var fp = new FlexPaperViewer(
+                'FlexPaperViewer',
+                'viewerPlaceHolder',     <!--对应于a 标签的id-->
+                { config : {
+                    SwfFile :  decodeURI('aaa.swf'),  <!--引入的swf文件，decodeURI 解决中文文件名问题-->
+                    Scale : 0.6,
+                    ZoomTransition : 'easeOut',
+                    ZoomTime : 0.5,
+                    ZoomInterval : 0.2,
+                    FitPageOnLoad : true,
+                    FitWidthOnLoad : false,
+                    PrintEnabled : true,
+                    FullScreenAsMaxWindow : false,
+                    ProgressiveLoading : false,
+                    MinZoomSize : 0.2,
+                    MaxZoomSize : 5,
+                    SearchMatchAll : false,
+                    InitViewMode : 'Portrait',
+
+                    ViewModeToolsVisible : true,
+                    ZoomToolsVisible : true,
+                    NavToolsVisible : true,
+                    CursorToolsVisible : true,
+                    SearchToolsVisible : true,
+                    localeChain: 'zh_CN'   <!--改成这个显示中文-->
+                }});
+    </script>
+</div>
+</body>

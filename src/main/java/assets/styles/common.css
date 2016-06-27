@@ -1,0 +1,251 @@
+*{margin: 0px; padding: 0px;}
+.background{ background: #fbfbfb;}
+table th{white-space: nowrap;  }
+/*nav*/
+.nav{ height: 60px;}
+.navbar-inverse {  background: #222;  position: fixed;  width: 100%;  z-index: 2000;  top: 0;  }
+.navbar-header {  margin-right: 0px;  margin-left: 0; float: left;}
+.navbar-header {  float: left;  padding-right: 15px;  }
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {  border-color: #101010;  float: left;  }
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {  margin-right: 0px;  margin-left: 0px;  }
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {  margin-right: -15px;  margin-left: -15px;  }
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse {  padding-left: 0px;  padding-right: 0px;  }
+.navbar-collapse.collapse {  display: block !important;  height: auto !important;  padding-bottom: 0px;  overflow: hidden;  }
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse, .pre-scrollable {  max-height: 340px;  }
+.navbar-collapse {  width: auto;  border-top: 0px none;  box-shadow: none;  }
+.navbar-collapse {  overflow-x: visible;  padding-right: 15px;  padding-left: 15px;  border-top: 1px solid transparent;  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1) inset;  }
+.navbar-brand {  float: left;  padding: 20px;  font-size: 20px;  line-height: 20px;  text-decoration: none;  }
+.navbar-inverse .navbar-brand {  color: #9D9D9D;  }
+.navbar-brand:focus, .navbar-brand:hover {  text-decoration: none;  }
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {  color: #FFF;  background-color: transparent;  }
+.navbar-nav > li {  float: left;height: 58px;  }
+.navbar-nav .active{background: #000;}
+.nav > li, .nav > li > a {  display: block;  position: relative;  color: #9D9D9D;  text-decoration: none;  }
+.nav > li, .nav > li > a:hover{ color: #ddd;}
+.navbar-nav, .navbar-nav > li {  float: left;  }
+.navbar-nav > li > a {  padding-top: 15px;  padding-bottom: 15px;  }
+.navbar-nav > li > a {  padding-top: 10px;  padding-bottom: 10px;  line-height: 20px;  }
+.nav > li > a {  padding: 10px 15px;  }
+.nav > li, .nav > li > a {  display: block;  position: relative;  }
+.navbar-nav > li > a {  padding: 20px;  }
+/*container*/
+.container{  margin: auto; margin-bottom: 50px;  overflow: hidden;}
+.login{ width:350px; margin: 120px auto auto auto;  background: #fff;  border: 1px solid #eee;}
+.login .form-signin{ padding: 20px;}
+/*select.css*/
+.margin-top{ margin-top: 125px;}
+.select-jail{width: 400px;  margin: auto;  border: 1px solid #eee; }
+option{ text-align: center;}
+.jail-backgroud{ background: #eee; height: 35px; line-height: 35px; padding: 2px 10px;}
+.select-jail p{ padding:8px 20px; text-align: center; cursor: pointer;  border-bottom: 1px solid #eee; list-style-type: none;}
+.select-jail p:hover{background: #eee;}
+/*homepage.css*/
+.form-group {  margin-bottom: 15px;  overflow: hidden;  }
+label {  display: block;  max-width: 100%;  margin-bottom: 5px;  color: #555;  }
+.form-signin .form-control {  position: relative;  height: auto;  width: 100%;  box-sizing: border-box;  padding: 10px;  border: 1px solid #eee;  font-size: 1pc;  background: #fbfbfb;  display: inline-block;  }
+.btn-block {  display: block;  width: 100%;  }
+.btn-group-lg > .btn, .btn-lg {  padding: 10px 1pc;  font-size: 18px;  line-height: 1.33333;  border-radius: 6px;  }
+.btn-primary {  color: #FFF;  background-color: #337AB7;  border-color: #2E6DA4;  }
+.btn-red {  color: #fff;  background-color: #fa0000;  border-color: #f00;  }
+.btn {  display: inline-block;  margin-bottom: 0;  font-weight: 400;  font-size: 20px;  text-align: center;  cursor: pointer;  border: 1px solid transparent;  white-space: nowrap;  padding: 4px 9pt;  line-height: 1.42857;  border-radius: 4px;  -moz-user-select: none;  }
+.btn:hover{opacity: 0.8; }
+/*index.css*/
+.panel{ background-color: #FFF;  border: 1px solid #eee;  border-radius: 4px;  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);  }
+.panel .panel-heading{ color: #333;  background-color: #F5F5F5;  border-color: #DDD;  padding: 10px 15px;  border-bottom: 1px solid transparent;  border-top-right-radius: 3px;  border-top-left-radius: 3px;}
+.panel .panel-body{  padding: 5px; }
+.panel .panel-right{display: inline-block;  float: right;}
+.panel .datepicker{margin-right: 20px;margin-top: 5px;float: left;display: inline-block;}
+.panel .output{float: left;}
+.datagrid{ text-align: center; }
+.table-bordered > thead > tr > td, .table-bordered > thead > tr > th {  border-bottom-width: 2px;
+}
+.table-bordered{border: 0;}
+.table-bordered, .table > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {  border: 1px solid #DDD; white-space: nowrap;  }
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 8px;
+    line-height: 1.42857;
+    vertical-align: top;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+}
+.table-bo {
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: block;
+    overflow-x: scroll;
+    margin: 15px;
+}
+
+.pager{ padding: 10px 0px 20px 20px;}
+.bg-info{
+    padding:8px 0;
+    background: #D9EDF7;
+}
+
+.bg-info span,.bg-info ul li{
+    line-height:35px
+}
+
+.bg-info span{
+    line-height:34px
+}
+
+.navbar-fixed{
+    position:fixed;
+    min-width:1000px;
+    width:100%;
+    z-index:1000
+}
+.select_jail{}
+.select_jail .jq{ float: left;}
+.select_jail .jq select,.select_jail .fjq select,.search input{border: 1px solid #eee;  padding: 2px 5px;}
+.inline-bloak{display: inline-block;}
+.jail_contant b{font-size:14px;}
+.jail_contant span{font-size:12px;}
+/*系统用户组*/
+  .padding-top{ margin-top: 60px;
+      float: left;
+      width: 100%;
+      display: inline-block;}
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        width: 160px;
+        top: 46pt;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+        background-color: #f5f5f5;
+        border-right: 1px solid #c8c8c8;
+    }
+}
+.left-nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: outside none none;
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+    margin-right: -21px; /* 20px padding + 1px border */
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+.nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.left-nav > li > a:focus, .left-nav > li > a:hover {
+    text-decoration: none;
+    background-color: #EEE;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #428bca;
+}
+.nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus {
+    color: #FFF;
+    background-color: #428BCA;
+}
+.nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.left-nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+a {
+    color: #337AB7;
+    text-decoration: none;
+}
+.main .page-header {
+    margin-top: 0;
+}
+.right-container{margin-left: 200px;}
+.right-main {  right: 0;top: 60px;  bottom: 44px;  position: absolute;  left: 200px;  }
+.pathNav {  border-bottom: 1px solid #EEE;  }
+.breadcrumb {  background: #EDEDED;  }
+.breadcrumb {  padding: 8px 15px;  margin-bottom: 20px;  list-style: outside none none;  background-color: #F5F5F5;  border-radius: 4px;  overflow: hidden;  }
+.right-container ol{ height: 22px;}
+.breadcrumb li{display: inline-block;  float: left;}
+.selector{ width: 100%; float: left;}
+.form-inline .input-group {  display: inline-table;  vertical-align: middle;  }
+.input-group {  position: relative;  display: table;  border-collapse: separate;  }
+.form-control {  width: 100%;  height: 34px;  padding: 6px 12px;  background-color: #FFF;  border: 1px solid #CCC;  border-radius: 4px;  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;  }
+.form-control, output {  font-size: 14px;  line-height: 1.42857;  color: #555;  display: block;  }
+.input-group-btn {  position: relative;  font-size: 0;  white-space: nowrap;  border: 1px solid #ccc;  }
+.form-inline{ padding:0px 20px;float: left; display: inline-block;}
+.input-group .input-group-btn{position: absolute;}
+.input-group  .form-contro {  background-color: #FFF;  width: 100%;  padding: 8px 9pt;  float: left;  display: inline-block;  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;  border-width: 1px 0px 1px 1px;  border-style: solid none solid solid;  border-color: #CCC;}
+.input-group-btn .fbtn{display: inline-block;  margin-bottom: 0;  white-space: nowrap;  padding: 6px 9pt;  line-height: 1.42857;  -moz-user-select: none;  border: 1px solid  #ccc;}
+.zfbg{float: right;}
+.zfbg select{height: 30px; border: 1px solid #ddd; text-align: center;}
+.grid{padding: 10px;}
+.grid{font-size: 12px;  line-height: 20px;}
+.grid .grid-main{position: relative;  overflow-x: auto;  border: 1px solid #E5E5E5;}
+.grid .grid-header{background-color: #F8F8F8;  border-bottom: 1px solid #E5E5E5; overflow: hidden;}
+.grid .grid-column{ padding: 10px; float: left; display: inline-block;  vertical-align: middle;  overflow: hidden;}
+.btn-com{ font-size: 14px;}
+.grid .grid-column input{ vertical-align: middle;}
+.grid .grid-column .grid-edit{ display: inline-block;}
+.grid .grid-column .grid-del{display: inline-block;}
+.grid .grid-body{ overflow: hidden;}
+.grid .grid-footer{ padding:10px;overflow: hidden;background-color: #F8F8F8;  border: 1px solid #E5E5E5; border-top: 0;}
+.btn-com{ font-size: 14px;}
+.dialog{ margin-top: 30px;}
+.dialog-size{ font-size: 16px; padding: 2px;}
+.dialog-input{height: 25px; text-align: center;  border: 1px solid #ccc;  vertical-align: bottom;  padding: 2px 10px;}
+.jailPer .informationPer .scorePer .areaPer .systemPer{ padding-left: 30px;}
+.padding{ padding: 10px; overflow: hidden;}
+.table .callback .green{color: #008000;}
+.table .callback .red{color: #F00;}
+/*//个人信息*/
+.table-table{border-collapse: collapse;  border-spacing: 0;  display:inline-table;  overflow-x: scroll; margin: 15px;}
+/*入监资料*/
+.newjail{   float:right;display: inline-block;}
+/*计分考核grid组件下的button*/
+.grid_button{ padding: 20px 0;}
+.grid_button .save{display: inline-block;}
+.grid_button .submit{display: inline-block;}
+.grid_button .reset{display: inline-block;}
+/*系统管理修改密码*/
+.container .password-container{width: 50%; margin: auto;  overflow: hidden;}
+.container .item{padding: 10px 0px;  width: 100%;float: left;display: inline-block;}
+.container .item .show{line-height: 35px;}
+.container .item label{ width: 90px;margin-top: 5px;font-size: 18px;float: left;}
+.container .item input{ font-size: 16px; padding: 5px 10px;border: 1px solid #ddd;}
+.container .item select{ font-size: 16px; padding: 5px 30px;border: 1px solid #ddd; float: left;}
+.container .item select option{ text-align: center;}
+.container .items{padding: 5px 5px;  width: 100%;float: left;display: inline-block;}
+.container .items label{width: 70px; text-align: center;  margin-top: 5px;  float: left;  }
+.container .items select{ padding: 2px 10px;  border: 1px solid #DDD;  float: left;}
+.container .items option{text-align: center;}
+.container .confirm{ float: right;}
+.dialog{display: inline-block;}
+.password-container .save{float: left; margin-left: 40%; display: inline-block;}
+/*系统管理添加页面*/
+.container .add-container{width: 50%; margin: auto;  overflow: hidden;}
+.container .add-container .item label{width: 110px;}
+.container .add-container .save{margin-top:10px;display: inline-block;}
+/*系统管理平台日志*/
+.platlogs{padding: 0 5px; display: inline-block; float: left;}
+.platlogs label{ padding-top: 5px;float: left; display: inline-block;}
+.platlogs input { float: left; padding: 5px 9pt;  display: inline-block;  border: 1px solid #ccc;  }
+.platlogs select { float: left; padding: 2px 3pt;  display: inline-block;  border: 1px solid #ccc;  }
+.ReportTime{width:309px; height: 25px;}
+
+
+.date{margin: 0 25px;display: inline-block; position: absolute;}
+.dater{ display: inline-block; vertical-align: bottom;}
+.search{display: inline-block; position: absolute; margin-left: 480px;}
+/*footer*/
+.footer {  font-size: 9pt;  color: #656565;  width: 100%;  padding: 10pt 0px;  border-top: 1px solid #C8C8C8;  position: fixed;  bottom: 0px;  background: #F5F5F5;  }
+.footer p{ text-align: center;}

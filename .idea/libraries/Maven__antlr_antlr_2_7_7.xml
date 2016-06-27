@@ -1,5 +1,8 @@
 <component name="libraryTable">
   <library name="Maven: antlr:antlr:2.7.7">
+    <ANNOTATIONS>
+      <root url="jar://E:/jar_/zaixianyulan/JODConverter一个Java的OpenDocument 文件转换器，在此我们只用到它的jar包/jodconverter-2.2.2.zip!/" />
+    </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/poi-3.13-20150929.jar!/" />
@@ -7,12 +10,20 @@
       <root url="jar://$MAVEN_REPOSITORY$/poi-ooxml-3.13-20150929.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/poi-ooxml-schemas-3.13-20150929.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/xmlbeans-2.6.0.jar!/" />
+      <root url="jar://E:/jar_/jodconverter-2.2.2.zip!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7-javadoc.jar!/" />
+      <root url="jar://E:/jar_/zaixianyulan/JODConverter一个Java的OpenDocument 文件转换器，在此我们只用到它的jar包/jodconverter-2.2.2.zip!/" />
     </JAVADOC>
+    <NATIVE>
+      <root url="jar://E:/jar_/zaixianyulan/JODConverter一个Java的OpenDocument 文件转换器，在此我们只用到它的jar包/jodconverter-2.2.2.zip!/" />
+    </NATIVE>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7-sources.jar!/" />
+      <root url="jar://E:/jar_/zaixianyulan/JODConverter一个Java的OpenDocument 文件转换器，在此我们只用到它的jar包/jodconverter-2.2.2.zip!/" />
+      <root url="jar://E:/jar_/zaixianyulan/JODConverter一个Java的OpenDocument 文件转换器，在此我们只用到它的jar包/jodconverter-2.2.2.zip!/" />
     </SOURCES>
+    <jarDirectory url="jar://E:/jar_/zaixianyulan/JODConverter一个Java的OpenDocument 文件转换器，在此我们只用到它的jar包/jodconverter-2.2.2.zip!/" recursive="false" type="SOURCES" />
   </library>
 </component>
