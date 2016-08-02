@@ -20,6 +20,7 @@ package conf;
 
 
 import com.google.inject.Inject;
+import controllers.DocConverterController;
 import controllers.ZaixianliulanController;
 import ninja.AssetsController;
 import ninja.Results;
@@ -50,7 +51,7 @@ public class Routes implements ApplicationRoutes {
         // a GET request to "/" will be redirect to "/dashboard"
 //        router.GET().route("/").with(Results.redirect("/dashboard"));
 
-
+        router.GET().route("/downLoadCriminalImage/swf").with(DocConverterController.class,"downLoadCriminalImage");
         router.GET().route("/wei/zaixianliulan").with(ZaixianliulanController.class,"index");
         router.GET().route("/contactForm").with(ApplicationController.class,"newContactForm");
         router.POST().route("/contactForm/post").with(ApplicationController.class,"postContactForm");

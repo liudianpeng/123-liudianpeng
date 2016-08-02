@@ -4,12 +4,10 @@ package models;
  * Created by Peng on 2016/6/27.
  * 在线预览
  */
-
- import com.artofsolving.jodconverter.DocumentConverter;
- import com.artofsolving.jodconverter.openoffice.connection.OpenOfficeConnection;
- import com.artofsolving.jodconverter.openoffice.connection.SocketOpenOfficeConnection;
- import com.artofsolving.jodconverter.openoffice.converter.OpenOfficeDocumentConverter;
-
+import com.artofsolving.jodconverter.DocumentConverter;
+import com.artofsolving.jodconverter.openoffice.connection.OpenOfficeConnection;
+import com.artofsolving.jodconverter.openoffice.connection.SocketOpenOfficeConnection;
+import com.artofsolving.jodconverter.openoffice.converter.OpenOfficeDocumentConverter;
  import java.io.BufferedInputStream;
  import java.io.File;
  import java.io.IOException;
@@ -41,6 +39,7 @@ public class DocConverter {
         ini(fileString);
     }
 
+
     /**
      * 初始化
      *
@@ -54,12 +53,26 @@ public class DocConverter {
         swfFile = new File(fileName + ".swf");
     }
 
+    public static void main(String[] args)throws Exception
+    {
+        DocConverter docConverter = new DocConverter("d:\\222.doc");//文件路径
+        System.out.println("==========="+docConverter.fileName);
+        System.out.println("==========="+docConverter.docFile);
+        System.out.println("==========="+docConverter.pdfFile);
+        System.out.println("==========="+docConverter.fileString);
+        System.out.println("==========="+docConverter.outputPath);
+        docConverter.doc2pdf();//转换pdf
+//        docConverter.pdf2swf();
+
+    }
+
+
     /**
      * 转为PDF
      *
      * @param
      */
-    private void doc2pdf() throws Exception {
+    private  void doc2pdf() throws Exception {
         if (docFile.exists()) {
             if (!pdfFile.exists()) {
                 OpenOfficeConnection connection = new SocketOpenOfficeConnection(8100);
@@ -100,7 +113,7 @@ public class DocConverter {
             if (pdfFile.exists()) {
                 if (environment == 1) {// windows环境处理
                     try {
-                        Process p = r.exec("D:/Program Files/SWFTools/pdf2swf.exe "+ pdfFile.getPath() + " -o "+ swfFile.getPath() + " -T 9");
+                        Process p = r.exec("D:\\SWFTools\\pdf2swf.exe "+ pdfFile.getPath() + " -o "+ swfFile.getPath() + " -T 9");
                         System.out.print(loadStream(p.getInputStream()));
                         System.err.print(loadStream(p.getErrorStream()));
                         System.out.print(loadStream(p.getInputStream()));
