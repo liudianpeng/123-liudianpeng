@@ -1,7 +1,7 @@
 /**
  * 
  */
-package models;
+package models.utils.Office;
 
 import java.io.File;
 import java.util.Date;
@@ -53,7 +53,8 @@ public class Office2PDF {
 
 	public static void main(String[] args) {
 		Office2PDF office2pdf = new Office2PDF();
-		office2pdf.openOfficeToPDF("d:/test/22." + OFFICE_DOCX, "e:/test_" + new Date().getTime() + "." + OFFICE_TO_PDF);
+//		office2pdf.openOfficeToPDF("d:/222." + OFFICE_DOCX, "d:/" + new Date().getTime() + "." + OFFICE_TO_PDF);
+		office2pdf.openOfficeToPDF("d:/222." + OFFICE_PPTX, "d:/" + new Date().getTime() + "." + OFFICE_TO_PDF);
 		//office2pdf.openOfficeToPDF("d:/22." + OFFICE_PPTX, null);
 	}
 
