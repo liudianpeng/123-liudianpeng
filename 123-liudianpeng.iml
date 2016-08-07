@@ -138,5 +138,8 @@
     <orderEntry type="library" name="Maven: org.htmlparser:htmlparser:2.1" level="project" />
     <orderEntry type="library" name="Maven: org.htmlparser:htmllexer:2.1" level="project" />
     <orderEntry type="library" name="Maven: org.htmlparser:filterbuilder:2.1" level="project" />
+    <orderEntry type="library" name="Maven: br.com.starcode.jerichoselector:jericho-selector:1.0.1-RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: net.htmlparser.jericho:jericho-html:3.3" level="project" />
+    <orderEntry type="library" name="Maven: br.com.starcode.parccser:parccser:1.1.1-RELEASE" level="project" />
   </component>
 </module>
