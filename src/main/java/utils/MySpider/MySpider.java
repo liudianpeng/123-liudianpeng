@@ -87,24 +87,24 @@ public class MySpider {
         return results;
     }
 
-    public void wuliuSave(){
 
-    }
 
-    public static void main(String[] args) {
+    static List<ArrayList> wuliuSave(){
         // 定义即将访问的链接
         String url = "http://www.yujiawl.com/zjyj/lxwm.aspx?types=000";
+        //保存每个地区的每组信息(每个url中tr的所有td分组信息)
+        List<ArrayList> tableTd = Lists.newArrayList();
+
         for (int i = 1; i < 6; i++) {
             //////////////////////////////////////////////////////////////////////////////////////////////////
             // 访问链接并获取页面内容
             String result = SendGet(url+String.valueOf(i));
-            // 使用正则匹配内容
+            // 使用正则匹配内容 取出span里的table数据
             ArrayList<String> spanTable = RegexString(result, "<span.*? id=\"ctl00_ContentPlaceHolder2_Labcontent\">([\\s\\S]*)</span>");
             //不会一次性匹配成功，所以分了三次匹配
             ArrayList<String> tableTr = RegexString(spanTable.get(0), "<tr.*?>([\\s\\S]*?)</tr>");
-            //        System.out.println(tableTr);
-            //保存每个地区的每组信息(每个url中tr的所有td分组信息)
-            List<ArrayList> tableTd = Lists.newArrayList();
+//                    System.out.println(tableTr);
+
             // 打印结果
             /*************************取出每个tr里面的td也就是每个字段信息************************************/
             for (String s : tableTr) {
@@ -112,9 +112,8 @@ public class MySpider {
                     //每一组tr里面的td
                     ArrayList<String> _tableTd = RegexString(s, "<td.*?>([\\s\\S]*?)</td>");
 
-                    //保存每个地区的每组信息(每个url中tr的所有td分组信息)
-                    tableTd.add(_tableTd);//每个地区的所有组信息
-
+                    //需要保存到数据库中:把_table保存成一个对象
+                    //////////////
                     if (null !=_tableTd) {
                         //只管保存每个tr中所有td就好
                         Wuliu wuliu = new Wuliu();
@@ -131,24 +130,86 @@ public class MySpider {
                                 wuliu.getShouji()+
                                 wuliu.getPhone());//每组信息里面的每条信息
                         //保存到数据库
+                }
+                    //////////////
 
+                    //保存每个地区的每组信息(每个url中tr的所有td分组信息)
+                    tableTd.add(_tableTd);//每个地区的所有组信息
 
+                    //每个tr里面的td数据,可以把_table保存成一个对象
+                    System.out.println(_tableTd);
 
-                        ///////////////////////////////////////////
-                        ////////////////////////////此处测试取出效果
-//                        for (String wl : _tableTd) {
-//                            if (null != wl) {
-////                                System.out.println(wl);//每组信息里面的每条信息
-//                            }
-//                        }
-                        /////////////////////////////
-                    }
-                    System.out.println("每一组tr中的td信息=="+_tableTd);//每一组信息
                 }
             }
-            /*****************************************************************/
-            System.out.println("每个url地区的所有tr组信息"+tableTd);
+            /***********************************************************************************************/
         }
+        return tableTd;
+    }
+
+    public static void main(String[] args) {
+
+        List<ArrayList> mySpider = wuliuSave();
+                System.out.println(mySpider);
+
+
+
+        // 定义即将访问的链接
+//        String url = "http://www.yujiawl.com/zjyj/lxwm.aspx?types=000";
+//        for (int i = 1; i < 6; i++) {
+//            //////////////////////////////////////////////////////////////////////////////////////////////////
+//            // 访问链接并获取页面内容
+//            String result = SendGet(url+String.valueOf(i));
+//            // 使用正则匹配内容
+//            ArrayList<String> spanTable = RegexString(result, "<span.*? id=\"ctl00_ContentPlaceHolder2_Labcontent\">([\\s\\S]*)</span>");
+//            //不会一次性匹配成功，所以分了三次匹配
+//            ArrayList<String> tableTr = RegexString(spanTable.get(0), "<tr.*?>([\\s\\S]*?)</tr>");
+//            //        System.out.println(tableTr);
+//            //保存每个地区的每组信息(每个url中tr的所有td分组信息)
+//            List<ArrayList> tableTd = Lists.newArrayList();
+//            // 打印结果
+//            /*************************取出每个tr里面的td也就是每个字段信息************************************/
+//            for (String s : tableTr) {
+//                if (!s.equals (tableTr.get(0))) {//因为第一项是标题,需要排除
+//                    //每一组tr里面的td
+//                    ArrayList<String> _tableTd = RegexString(s, "<td.*?>([\\s\\S]*?)</td>");
+//
+//                    //保存每个地区的每组信息(每个url中tr的所有td分组信息)
+//                    tableTd.add(_tableTd);//每个地区的所有组信息
+//
+//                    if (null !=_tableTd) {
+//                        //只管保存每个tr中所有td就好
+//                        Wuliu wuliu = new Wuliu();
+//                        wuliu.setId(1l);
+//                        wuliu.setQuxian(_tableTd.get(0));
+//                        wuliu.setQuyu(_tableTd.get(1));
+//                        wuliu.setAddress(_tableTd.get(2));
+//                        wuliu.setPhone(_tableTd.get(3));
+//                        wuliu.setName(_tableTd.get(4));
+//                        wuliu.setShouji(_tableTd.get(5));
+//                        System.out.println("this is wuliu="+wuliu.getName()+
+//                                wuliu.getQuxian() +
+//                                wuliu.getQuyu()+
+//                                wuliu.getShouji()+
+//                                wuliu.getPhone());//每组信息里面的每条信息
+//                        //保存到数据库
+//
+//
+//
+//                        ///////////////////////////////////////////
+//                        ////////////////////////////此处测试取出效果
+////                        for (String wl : _tableTd) {
+////                            if (null != wl) {
+//////                                System.out.println(wl);//每组信息里面的每条信息
+////                            }
+////                        }
+//                        /////////////////////////////
+//                    }
+//                    System.out.println("每一组tr中的td信息=="+_tableTd);//每一组信息
+//                }
+//            }
+//            /*****************************************************************/
+//            System.out.println("每个url地区的所有tr组信息"+tableTd);
+//        }
 
     }
 
