@@ -15,10 +15,10 @@ public class SpiderRun {
      */
     public static void main(String[] args) {
 // TODO Auto-generated method stub
-        String[] seeds={"http://localhost/openzone/"};//爬虫首先进入的网页
-        String line="http://localhost";//爬虫只记录以此开头的地址
-        String savepath="D:\\javaworkspace\\openzone";//保存网页的文件夹地址
-        String encoding="utf-8";//设置编码
+        String[] seeds={"http://www.yujiawl.com/zjyj/lxwm.aspx?types=0001"};//爬虫首先进入的网页
+        String line="http://www.yujiawl.com";//爬虫只记录以此开头的地址
+        String savepath="F:\\javaworkspace";//保存网页的文件夹地址
+        String encoding="gb2312";//设置编码
         Spider spider=new Spider(seeds, line, savepath, encoding);
         try {
             spider.run();

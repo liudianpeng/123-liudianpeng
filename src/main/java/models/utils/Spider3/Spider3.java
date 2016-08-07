@@ -91,8 +91,8 @@ public class Spider3 {
     public static void main(String[] args) {
         String url = "http://www.yujiawl.com/zjyj/lxwm.aspx?types=0002";
         String keyword = "";
-//        System.out.println(createhttpClient(url,keyword));
+        System.out.println(createhttpClient(url,keyword));
         // 第一种方法
-         System.out.println(getPageContent(url, "post", 100500));//第二种方法
+//         System.out.println(getPageContent(url, "post", 100500));//第二种方法
     }
 }

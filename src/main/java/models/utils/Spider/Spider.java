@@ -75,7 +75,7 @@ public class Spider {
                 new DefaultHttpMethodRetryHandler());
         //设置encoding
         getMethod.getParams().setParameter(HttpMethodParams.HTTP_CONTENT_CHARSET,encoding);
-        getMethod.addRequestHeader("Content-Type", "text/html; charset=UTF-8");
+        getMethod.addRequestHeader("Content-Type", "text/html; charset=gb2312");
         //执行http get请求
         int statusCode;
         try {
