@@ -68,10 +68,10 @@ public class MySpider {
         String url = "http://www.yujiawl.com/zjyj/lxwm.aspx?types=0001";
         // 访问链接并获取页面内容
         String result = SendGet(url);
-        // 使用正则匹配图片的src内容
-        //String imgSrc = RegexString(result, "src=\"(.+?)\"");
+        // 使用正则匹配内容
+        String imgTable = RegexString(result, "src=\"(.+?)\"");
         // 打印结果
-        System.out.println(result);
+        System.out.println(imgTable);
     }
 
 

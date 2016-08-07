@@ -1,11 +1,10 @@
-package models.utils.Spider4.zhihu_Spider;
+package models.utils.Spider4_perfect.zhihui_title_Spider;
 
 /**
  * Created by Peng on 2016/8/7.
- *资料来源：http://www.jb51.net/article/57203.htm：
- * 再新建一个Spider_2类来存放一些爬虫常用的函数。
+ *再新建一个Spider_2类来存放一些爬虫常用的函数。
  */
-import models.utils.Spider4.zhihu_Spider.Zhihu;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
@@ -13,7 +12,6 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 public class Spider_2 {
 
     static String SendGet(String url) {
@@ -54,74 +52,47 @@ public class Spider_2 {
         return result;
     }
 
-    /**
-     * 我们给知乎的构造函数加上一个参数，用来设定url值，因为url确定了，这个问题的描述和答案也就都能抓到了。
-     我们将Spider的获取知乎对象的方法改一下，只获取url即可：
-     * @param content
-     * @return
-     */
-    // 获取所有的编辑推荐的知乎内容
-    static ArrayList<Zhihu> GetRecommendations(String content) {
+    static ArrayList<Zhihu> GetZhihu(String content) {
         // 预定义一个ArrayList来存储结果
         ArrayList<Zhihu> results = new ArrayList<Zhihu>();
+        // 用来匹配标题
+        Pattern questionPattern = Pattern.compile("question_link.+?>(.+?)<");
+        Matcher questionMatcher = questionPattern.matcher(content);
         // 用来匹配url，也就是问题的链接
-        Pattern pattern = Pattern
-                .compile("<h2>.+?question_link.+?href=\"(.+?)\".+?</h2>");
-        Matcher matcher = pattern.matcher(content);
-        // 是否存在匹配成功的对象
-        Boolean isFind = matcher.find();
+        Pattern urlPattern = Pattern.compile("question_link.+?href=\"(.+?)\"");
+        Matcher urlMatcher = urlPattern.matcher(content);
+        // 问题和链接要均能匹配到
+        boolean isFind = questionMatcher.find() && urlMatcher.find();
         while (isFind) {
             // 定义一个知乎对象来存储抓取到的信息
-            Zhihu zhihuTemp = new Zhihu(matcher.group(1));
+            Zhihu zhuhuTemp = new Zhihu();
+            zhuhuTemp.question = questionMatcher.group(1);
+            zhuhuTemp.zhihuUrl = "http://www.zhihu.com" + urlMatcher.group(1);
             // 添加成功匹配的结果
-            results.add(zhihuTemp);
+            results.add(zhuhuTemp);
             // 继续查找下一个匹配对象
-            isFind = matcher.find();
+            isFind = questionMatcher.find() && urlMatcher.find();
         }
         return results;
     }
 
-
-    /**
-     *接下来，就是在Zhihu的构造方法里面，通过url获取所有的详细数据。
-     我们先要对url进行一个处理，因为有的针对回答的，它的url是：
-     http://www.zhihu.com/question/22355264/answer/21102139
-     有的针对问题的，它的url是：
-     http://www.zhihu.com/question/22355264
-     那么我们显然需要的是第二种，所以需要用正则把第一种链接裁切成第二种，这个在Zhihu中写个函数即可
-     */
-
-    /**
-     * 接下来就是各个部分的获取工作了。
-     先看下标题：
-
-     正则把握住那个class即可，正则语句可以写成：zm-editable-content\">(.+?)<
-     运行下看看结果：
-     */
-
-    /**
-     *
-    啊哈一样的原理，抓住class，因为它应该是这个的唯一标识。
-    验证方法：右击查看页面源代码，ctrl+F看看页面中有没有其他的这个字符串。
-    后来经过验证，还真出了问题
-     */
-    /**
-     * 标题和描述内容前面的class是一样的。
-     那只能通过修改正则的方式来重新抓取：
-     * @param args
-     */
     public static void main(String[] args) {
-
         // 定义即将访问的链接
         String url = "http://www.zhihu.com/explore/recommendations";
         // 访问链接并获取页面内容
-        String content = Spider_2.SendGet(url);
-        // 获取编辑推荐
-        ArrayList<Zhihu> myZhihu = Spider_2.GetRecommendations(content);
+        String content = SendGet(url);
+        // 获取该页面的所有的知乎对象
+        ArrayList<Zhihu> myZhihu = GetZhihu(content);
         // 打印结果
         System.out.println(myZhihu);
     }
-
+    /**
+     * 好的效果不错。
+     接下来就是访问链接然后获取到所有的答案了。
+     下一回我们再介绍。
+     好了，以上就是简单的介绍了如何使用java来抓取知乎的编辑推荐的内容的全部过程了，
+     非常详尽，也很简单易懂，对吧，有需要的小伙伴可以参考下，自由扩展也没问题哈
+     */
 }
 
 
