@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="836a0fb7-2748-457b-b312-af755e104f5c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/BfsSpider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/DownTool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/HtmlParserTool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/LinkFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/Queue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/Spider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/SpiderQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihu_Spider/FileReaderWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihu_Spider/Zhihu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihui_title_Spider/package-info.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/models/utils/Spider4/zhihu_Spider/Zhihu.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/models/utils/MySpider/MySpider.java" afterPath="$PROJECT_DIR$/src/main/java/models/utils/MySpider/MySpider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/models/utils/Spider4/Spider_1.java" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihui_title_Spider/Spider_1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/models/utils/Spider4/Spider_2.java" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihui_title_Spider/Spider_2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/models/utils/Spider4/Spider_2_Main.java" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihui_title_Spider/Spider_2_Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/models/utils/Spider4/Zhihu.java" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihui_title_Spider/Zhihu.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/models/utils/Spider4/baidu_index_Spider/Main_1.java" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/baidu_index_Spider/Main_1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/models/utils/Spider4/baidu_index_Spider/Main_2.java" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/baidu_index_Spider/Main_2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/models/utils/Spider4/package-info.java" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihu_Spider/package-info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/models/utils/Spider4/xiangguanClass_demo/BufferedReaderDemo.java" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/xiangguanClass_demo/BufferedReaderDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/models/utils/Spider4/xiangguanClass_demo/InputStreamReaderDemo.java" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/xiangguanClass_demo/InputStreamReaderDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/models/utils/Spider4/xiangguanClass_demo/ResourceHelper.java" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/xiangguanClass_demo/ResourceHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/models/utils/Spider4/xiangguanClass_demo/URL_Demo.java" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/xiangguanClass_demo/URL_Demo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/models/utils/Spider4/xiangguanClass_demo/UtilResource.java" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/xiangguanClass_demo/UtilResource.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/models/utils/Spider4/zhihu_Spider/Spider_2.java" afterPath="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihu_Spider/Spider_2.java" />
-    </list>
+    <list default="true" id="836a0fb7-2748-457b-b312-af755e104f5c" name="Default" comment="" />
     <ignored path="123-liudianpeng.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,71 +23,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MySpider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/MySpider/MySpider.java">
+      <file leaf-file-name="MySpider.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/MySpider/MySpider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.54373926">
+              <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Zhihu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihu_Spider/Zhihu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="96" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spider_2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihu_Spider/Spider_2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="123" column="37" selection-start-line="123" selection-start-column="37" selection-end-line="123" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1879#1886#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DownLoadFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider1/DownLoadFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="83" column="34" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DownTool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/DownTool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BfsSpider.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/BfsSpider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6415094">
-              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-              <folding>
-                <element signature="e#482#720#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/models/utils/Spider.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/utils/Spider/UrlTables.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/models/utils/Spider1/LinkQueue.java" />
@@ -195,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/HtmlParserTool.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/BfsSpider.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/DownTool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/utils/Office/ImportUserDepartment.java" />
       </list>
     </option>
   </component>
@@ -325,142 +239,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="123-liudianpeng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="123-liudianpeng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spider6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="123-liudianpeng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="123-liudianpeng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spider4_perfect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="123-liudianpeng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="123-liudianpeng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spider4_perfect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spider_gaojifangfa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="123-liudianpeng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="123-liudianpeng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -487,41 +265,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Spider1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="123-liudianpeng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="123-liudianpeng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="MySpider" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -572,6 +320,9 @@
       <recent name="F:\123-liudianpeng\src\main\java\models\utils\Spider4" />
       <recent name="F:\123-liudianpeng\src\main\java\models" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="models" />
       <recent name="models.utils.Spider4.zhihu_Spider" />
@@ -582,11 +333,11 @@
       <recent name="F:\123-liudianpeng\src\main\java\models\utils\Office" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BfsSpider">
+  <component name="RunManager" selected="Application.MySpider">
     <configuration default="false" name="Spider_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="models.utils.Spider4_perfect.baidu_index_Spider.*" />
+          <option name="PATTERN" value="utils.Spider4_perfect.B_baidu_index_Spider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -606,7 +357,7 @@
     <configuration default="false" name="Spider_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="models.utils.Spider4_perfect.zhihu_Spider.*" />
+          <option name="PATTERN" value="utils.Spider4_perfect.C_zhihu_Spider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -626,7 +377,7 @@
     <configuration default="false" name="Spider_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="models.utils.Spider4_perfect.zhihui_title_Spider.*" />
+          <option name="PATTERN" value="utils.Spider4_perfect.D_zhihui_title_Spider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -646,11 +397,11 @@
     <configuration default="false" name="Spider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="models.utils.Spider4_perfect.Spider_gaojifangfa.*" />
+          <option name="PATTERN" value="utils.Spider4_perfect.Spider_gaojifangfa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="models.utils.Spider4_perfect.Spider_gaojifangfa.Spider" />
+      <option name="MAIN_CLASS_NAME" value="utils.Spider4_perfect.Spider_gaojifangfa.Spider" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -666,7 +417,7 @@
     <configuration default="false" name="BfsSpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="models.utils.Spider4_perfect.Spider_gaojifangfa.*" />
+          <option name="PATTERN" value="utils.Spider4_perfect.Spider_gaojifangfa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1036,11 +787,11 @@
     <configuration default="false" name="MySpider" type="Application" factoryName="Application" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="models.utils.MySpider.*" />
+          <option name="PATTERN" value="utils.MySpider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="models.utils.MySpider.MySpider" />
+      <option name="MAIN_CLASS_NAME" value="utils.MySpider.MySpider" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1056,7 +807,7 @@
     <configuration default="false" name="ExcelUtils" type="Application" factoryName="Application" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="models.utils.Office.*" />
+          <option name="PATTERN" value="utils.Office.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1117,12 +868,12 @@
       <workItem from="1470118815795" duration="1558000" />
       <workItem from="1470122074778" duration="3162000" />
       <workItem from="1470379184680" duration="6446000" />
-      <workItem from="1470463811319" duration="31247000" />
+      <workItem from="1470463811319" duration="31980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89535000" />
+    <option name="totallyTimeSpent" value="90268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1177,31 +928,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/htmlparser/htmlparser/2.1/htmlparser-2.1.jar!/org/htmlparser/filters/OrFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.071429">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/htmlparser/htmllexer/2.1/htmllexer-2.1.jar!/org/htmlparser/NodeFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2054054">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/js/zaixianliulan.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22813036">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider1/LinkQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider1/LinkQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0651801">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
@@ -1227,18 +954,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider1/HtmlParserTool.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider1/HtmlParserTool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8851964">
           <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#594#602#0" expanded="false" />
+            <element signature="e#587#595#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider1/LinkFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider1/LinkFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -1246,7 +973,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider/UrlTables.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider/UrlTables.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1270,7 +997,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/xiangguanClass_demo/BufferedReaderDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/A_xiangguanClass_demo/BufferedReaderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="62" />
@@ -1280,7 +1007,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/xiangguanClass_demo/InputStreamReaderDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/A_xiangguanClass_demo/InputStreamReaderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.30360207">
           <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
@@ -1288,7 +1015,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/xiangguanClass_demo/ResourceHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/A_xiangguanClass_demo/ResourceHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7495712">
           <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
@@ -1333,7 +1060,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider1/MyCrawler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider1/MyCrawler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.3380783">
           <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
@@ -1341,7 +1068,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider/Spider.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider/Spider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.3042705">
           <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
@@ -1349,7 +1076,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider/SpiderRun.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider/SpiderRun.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40569395">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
@@ -1357,7 +1084,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider3/Spider3.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider3/Spider3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49288255">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
@@ -1367,7 +1094,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/xiangguanClass_demo/UtilResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/A_xiangguanClass_demo/UtilResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5320285">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
@@ -1375,7 +1102,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/xiangguanClass_demo/URL_Demo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/A_xiangguanClass_demo/URL_Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2508897">
           <caret line="124" column="14" selection-start-line="124" selection-start-column="14" selection-end-line="124" selection-end-column="14" />
@@ -1385,7 +1112,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider6/package-info.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider6/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13523132">
           <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
@@ -1401,7 +1128,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider2/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="99" selection-start-line="32" selection-start-column="89" selection-end-line="32" selection-end-column="99" />
@@ -1428,7 +1155,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihui_title_Spider/Zhihu.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/D_zhihui_title_Spider/Zhihu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4562607">
           <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
@@ -1436,29 +1163,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/baidu_index_Spider/Main_2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/B_baidu_index_Spider/Main_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihui_title_Spider/Spider_2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/D_zhihui_title_Spider/Spider_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#SendGet#0;class#Spider_2#0" expanded="false" />
-            <element signature="e#1655#1662#0" expanded="true" />
+            <element signature="e#1650#1657#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihui_title_Spider/Spider_2_Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/D_zhihui_title_Spider/Spider_2_Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
@@ -1466,38 +1193,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/baidu_index_Spider/Main_1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/B_baidu_index_Spider/Main_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihui_title_Spider/Spider_1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/D_zhihui_title_Spider/Spider_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.8885076">
           <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3643#3651#0" expanded="true" />
+            <element signature="e#3638#3646#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/MySpider/MySpider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihu_Spider/Zhihu.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/C_zhihu_Spider/Zhihu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="96" selection-end-column="7" />
@@ -1505,27 +1222,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihu_Spider/FileReaderWriter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/C_zhihu_Spider/FileReaderWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39108062">
           <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihui_title_Spider/package-info.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/D_zhihui_title_Spider/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#2980#0" expanded="true" />
+            <element signature="e#0#2975#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihu_Spider/package-info.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/C_zhihu_Spider/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12006861">
           <caret line="125" column="32" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="32" />
@@ -1533,7 +1250,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider6/Spider_httpRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider6/Spider_httpRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.0308747">
           <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
@@ -1543,7 +1260,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/package-info.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/Spider_gaojifangfa/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="40" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
@@ -1551,59 +1268,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/Spider.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/Spider_gaojifangfa/Spider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/Queue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/Spider_gaojifangfa/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
           <folding>
-            <element signature="e#263#271#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#256#264#0" expanded="false" />
+            <element signature="e#341#342#0" expanded="false" />
+            <element signature="e#373#374#0" expanded="false" />
+            <element signature="e#441#442#0" expanded="false" />
+            <element signature="e#483#484#0" expanded="false" />
+            <element signature="e#551#552#0" expanded="false" />
+            <element signature="e#589#590#0" expanded="false" />
+            <element signature="e#665#666#0" expanded="false" />
+            <element signature="e#705#706#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#807#808#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/SpiderQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/Spider_gaojifangfa/SpiderQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="63" column="59" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-            <element signature="e#1451#1452#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#437#438#0" expanded="false" />
+            <element signature="e#472#473#0" expanded="false" />
+            <element signature="e#560#561#0" expanded="false" />
+            <element signature="e#598#599#0" expanded="false" />
+            <element signature="e#679#680#0" expanded="false" />
+            <element signature="e#719#720#0" expanded="false" />
+            <element signature="e#898#899#0" expanded="false" />
+            <element signature="e#933#934#0" expanded="false" />
+            <element signature="e#1025#1026#0" expanded="false" />
+            <element signature="e#1070#1071#0" expanded="false" />
+            <element signature="e#1444#1445#0" expanded="false" />
+            <element signature="e#1487#1488#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/LinkFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/Spider_gaojifangfa/LinkFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1611,31 +1328,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/HtmlParserTool.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/Spider_gaojifangfa/HtmlParserTool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2607527">
           <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#618#626#0" expanded="true" />
-            <element signature="e#828#1213#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#611#619#0" expanded="false" />
+            <element signature="e#821#1206#0" expanded="false" />
+            <element signature="e#1205#1206#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/zhihu_Spider/Spider_2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/C_zhihu_Spider/Spider_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="123" column="37" selection-start-line="123" selection-start-column="37" selection-end-line="123" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1879#1886#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider1/DownLoadFile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider1/DownLoadFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="83" column="34" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="34" />
@@ -1643,23 +1359,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/DownTool.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/Spider_gaojifangfa/DownTool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/utils/Spider4_perfect/Spider_gaojifangfa/BfsSpider.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Spider4_perfect/Spider_gaojifangfa/BfsSpider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6415094">
+        <state vertical-scroll-proportion="1.1303602">
           <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
           <folding>
-            <element signature="e#482#720#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#475#713#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Office/Office2PDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.540309">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Office/ImportUserDepartment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48885077">
+          <caret line="99" column="12" selection-start-line="0" selection-start-column="2" selection-end-line="299" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Office/DocConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.728988">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/MySpider/MySpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54373926">
+          <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
