@@ -1,7 +1,13 @@
-package models.utils.Spider4;
+package models.utils.Spider4.baidu_index_Spider;
+
+import java.io.*;
+import java.net.*;
 
 /**
+ * 资料来源:http://www.jb51.net/article/57193.htm?_t=t
+ *
  * Created by Peng on 2016/8/7.
+ * 那么这一次，我们就来研究一下如何使用代码获取到网页的内容。
  *  首先，没有HTML和CSS和JS和AJAX经验的建议先去W3C（点我点我）小小的了解一下。
 
  说到HTML，这里就涉及到一个GET访问和POST访问的问题。
@@ -27,9 +33,7 @@ package models.utils.Spider4;
  先来看一段简单的源码：
  *
  */
-import java.io.*;
-import java.net.*;
-public class Main_baidu_index {
+public class Main_1 {
     public static void main(String[] args) {
         // 定义即将访问的链接
         String url = "http://cn.bing.com/";

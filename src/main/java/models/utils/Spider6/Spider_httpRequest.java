@@ -1,4 +1,4 @@
-package models.utils.Spider5;
+package models.utils.Spider6;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,7 +12,7 @@ import java.util.regex.Pattern;
 /**
  * Created by Peng on 2016/8/7.
  */
-public class Spider_demo {
+public class Spider_httpRequest {
     public static void main(String[] args) throws Exception {
         String info = getTodayTemperatureInfo();
         System.out.println(info);
@@ -155,7 +155,6 @@ public class Spider_demo {
 
         return result;
     }
-
 
 
 }
