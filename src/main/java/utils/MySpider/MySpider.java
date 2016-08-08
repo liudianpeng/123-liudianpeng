@@ -94,7 +94,7 @@ public class MySpider {
         String url = "http://www.yujiawl.com/zjyj/lxwm.aspx?types=000";
         //保存每个地区的每组信息(每个url中tr的所有td分组信息)
         List<ArrayList> tableTd = Lists.newArrayList();
-
+        Wuliu wuliu =new Wuliu();
         for (int i = 1; i < 6; i++) {
             //////////////////////////////////////////////////////////////////////////////////////////////////
             // 访问链接并获取页面内容
@@ -116,19 +116,19 @@ public class MySpider {
                     //////////////
                     if (null !=_tableTd) {
                         //只管保存每个tr中所有td就好
-                        Wuliu wuliu = new Wuliu();
-                        wuliu.setId(1l);
-                        wuliu.setQuxian(_tableTd.get(0));
-                        wuliu.setQuyu(_tableTd.get(1));
-                        wuliu.setAddress(_tableTd.get(2));
-                        wuliu.setPhone(_tableTd.get(3));
-                        wuliu.setName(_tableTd.get(4));
-                        wuliu.setShouji(_tableTd.get(5));
-                        System.out.println("this is wuliu="+wuliu.getName()+
-                                wuliu.getQuxian() +
-                                wuliu.getQuyu()+
-                                wuliu.getShouji()+
-                                wuliu.getPhone());//每组信息里面的每条信息
+
+//                        wuliu.setId(1l);
+//                        wuliu.setQuxian(_tableTd.get(0));
+//                        wuliu.setQuyu(_tableTd.get(1));
+//                        wuliu.setAddress(_tableTd.get(2));
+//                        wuliu.setPhone(_tableTd.get(3));
+//                        wuliu.setName(_tableTd.get(4));
+//                        wuliu.setShouji(_tableTd.get(5));
+//                        System.out.println("this is wuliu="+wuliu.getName()+
+//                                wuliu.getQuxian() +
+//                                wuliu.getQuyu()+
+//                                wuliu.getShouji()+
+//                                wuliu.getPhone());//每组信息里面的每条信息
                         //保存到数据库
                 }
                     //////////////
@@ -137,7 +137,7 @@ public class MySpider {
                     tableTd.add(_tableTd);//每个地区的所有组信息
 
                     //每个tr里面的td数据,可以把_table保存成一个对象
-                    System.out.println(_tableTd);
+//                    System.out.println(_tableTd);
 
                 }
             }
