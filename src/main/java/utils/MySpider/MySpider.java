@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import static br.com.starcode.jerichoselector.jerQuery.$;
 /**
  * Created by Peng on 2016/8/7.
  * 抓取"宇佳物流"网站中的配送站点并存入数据库中;
