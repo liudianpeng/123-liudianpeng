@@ -31,10 +31,10 @@ public class MySpiderSave {
                 for (int j = 0; j < mySpider.get(i).size(); j++) {
                     Object[] obj = new String[ mySpider.get(i).size()];
                     obj =  mySpider.get(i).toArray(obj);
-                    System.out.println("==="+obj[4]);
+//                    System.out.println("==="+obj[4]+i);
 
-                    ps.setInt(1, j);
-                    ps.setInt(2, j+1);
+                    ps.setInt(1, i+1);
+                    ps.setInt(2, i+1+i);
                     ps.setString(3, obj[4].toString());//name
                     ps.setString(4, "");
                     ps.setString(5, obj[1].toString());//quyu
