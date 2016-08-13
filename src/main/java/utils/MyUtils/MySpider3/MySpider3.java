@@ -2,18 +2,15 @@ package utils.MyUtils.MySpider3;
 
 
 import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import utils.gson_test.Person;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.List;
-import java.util.Map;
-import java.util.regex.Matcher;
+
 
 /**
  * Created by Peng on 2016/8/13.
