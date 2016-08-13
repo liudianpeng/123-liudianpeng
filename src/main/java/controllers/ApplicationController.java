@@ -16,7 +16,7 @@
 
 package controllers;
 
-import utils.Spider.UrlTables;
+import utils.SpiderAll.Spider.UrlTables;
 import ninja.Context;
 import ninja.Result;
 import ninja.Results;
