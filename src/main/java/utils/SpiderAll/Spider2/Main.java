@@ -11,8 +11,12 @@ import java.net.URLConnection;
  */
 public class Main {
     public static void main(String[] args) {
-        //定义即将访问的连接
-        String url = "http://www.yujiawl.com/zjyj/lxwm.aspx?types=000";
+        //定义即将访问的连接\
+        //济南市
+        String url = "http://www.guangyewuliu.com/help/station!getStations?distId=3701&page=1&rows=10";
+
+        //青岛     //http://www.guangyewuliu.com/help/station!getStations?distId=3702&page=1&rows=10
+
         //定义一个字符串来存储网页内容
         String result = "";
         //定义一个缓冲字符输入流
@@ -30,7 +34,7 @@ public class Main {
                 //初始化BufferedReader输入流来读取URL的响应
 //                in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
 //                InputStream urlStream = new GZIPInputStream(connection.getInputStream());
-                in = new BufferedReader(new InputStreamReader(connection.getInputStream(),"gb2312"));
+                in = new BufferedReader(new InputStreamReader(connection.getInputStream(),"utf-8"));
 
                 //用来临时存储抓取到的每一行的数据
                 String line;

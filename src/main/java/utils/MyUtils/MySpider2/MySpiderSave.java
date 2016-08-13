@@ -4,9 +4,6 @@ package utils.MyUtils.MySpider2;
  * Created by Peng on 2016/8/8.
  */
 
-
-import utils.MyUtils.MySpider2.MySpider;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;

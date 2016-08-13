@@ -167,6 +167,8 @@ public class MySpider {
         return all_result;
     }
 
+
+    //本想封装,结果没有封装成功;以后再说-----
      static List<ArrayList> end_result(String url){
          List<ArrayList> arrayLists = Lists.newArrayList();
          //通过地区的url获取页面内容
