@@ -1,6 +1,7 @@
 package utils.MyUtils.MySpider_area;
 
 import com.google.common.collect.Lists;
+import com.mchange.v1.xml.StdErrErrorHandler;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -94,9 +95,10 @@ public class Spider_area {
     }
 
     public static void main(String[] args) {
-        int aaaa=0;//市
+        int aaaa=0;//市个数
         int bbbb=0;//县
         int cccc=0;//镇
+        int dddd=0;//村
         //省_url
         String url = "http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2015/";////////////////////////////////////////////
 //        System.out.println(url);
@@ -124,7 +126,7 @@ public class Spider_area {
                 String province_url_sub =a.substring(href+1,hrefend-1);
 //                System.out.println(province_url_sub);
                 String city_url = url+province_url_sub;////////////////////////////////////////////////////////////////url
-//                System.out.println(city_url);
+                System.out.println("/市/"+city_url);
                 //获取包含所有市的页面内容
                 ArrayList<String>results_city = regexString(getHtml(city_url),"<tr.*? class='citytr'>([\\s\\S]*?)</tr>");
 //                System.out.println(results_city);
@@ -138,7 +140,7 @@ public class Spider_area {
                     String city = results_td2.get(1);
 //                    System.out.println(city);
 //                    System.out.println(city_id);
-//                    System.out.println("中国一共有"+aaaa+++"个市");
+                    System.out.println("中国第"+aaaa+++"个市");
                     //抓取市结束,抓取县开始====================================================
                     //td><a href='11/1101.html'>110100000000</a></td><td><a href='11/1101.html'>市辖区</a></td>获取1101.html
                     ArrayList<String>results_td3 = regexString(s1,"<td.*?>([\\s\\S]*?)</td>");
@@ -148,7 +150,7 @@ public class Spider_area {
 //                    System.out.println(city_url_sub);
                     //定义各区县的url
                     String conuty_url = url+city_url_sub;//////////////////////////////////////////////////////////////url
-//                    System.out.println(conuty_url);
+                    System.out.println("/县/"+conuty_url);
                     ////////////////////////////////////////////////////////////
                     //获取包含所有县区的页面内容
                     ArrayList<String>results_conuty = regexString(getHtml(conuty_url),"<tr.*? class='countytr'>([\\s\\S]*?)</tr>");
@@ -162,9 +164,9 @@ public class Spider_area {
 //                            System.out.println(county_id);
                             //区县名称-----------------------------------------------------
                             String conuty = results_td4.get(1);
-                            System.out.println("中国一共有"+bbbb+++"个县");
+                            System.out.println("中国第"+bbbb+++"个县");
 //                            System.out.println(conuty);
-                            /////////县获取完，乡镇开始：==========================================
+                            /////////县获取完，乡镇开始：////////////////////////////==========================================
                             ArrayList<String>results_td5 = regexString(s2,"<td.*?>([\\s\\S]*?)</td>");
 //                            System.out.println(results_td5);
 //                            //得到乡镇的url尾部
@@ -178,28 +180,64 @@ public class Spider_area {
 //                            System.out.println(t1+"_"+t2);
                             //定义乡镇url
                             String town_url = url+t1+"/"+t2+"/"+town_url_sub;//////////////////////////////////////////////////////////////url
-                            System.out.println(town_url);
+                            System.out.println("/镇/"+town_url);
                             /////////////url处理完毕///////////////////////////////////////////////////////////////////
                             //获取包含所有乡镇页面
                             ArrayList<String>results_town = regexString(getHtml(town_url),"<tr.*? class='towntr'>([\\s\\S]*?)</tr>");
-                            System.out.println(province);
-                            System.out.println(city);
-                            System.out.println(conuty);
-                            System.out.println(results_town);
+                            for (String s3:results_town){
+                                ArrayList<String>results_td6 = regexString(s3,"<a.*?>([\\s\\S]*?)</a>");
 
-
-
+                                //乡镇代码
+                                Long town_id = Long.valueOf(results_td6.get(0));//--------------------------
+//                            System.out.println(town_id);
+                                //乡镇名称-----------------------------------------------------------------
+                                String town = results_td6.get(1);
+                                System.out.println("中国第"+cccc+++"个镇");
+//                                System.out.println(town);
+                                /////////////////////////////获取村庄///////////////////////////////////////////////////
+                                ArrayList<String>results_td7 = regexString(s3,"<td.*?>([\\s\\S]*?)</td>");
+//                                System.out.println(results_td7);
+////                            //得到村的url尾部
+//                                //特殊处理一下截取
+                                int href_ts1 = results_td7.get(0).indexOf("/");
+                                String village_url_sub =results_td7.get(0).substring(href_ts1+1,hrefend+9);
+//                                System.out.println(village_url_sub);
+//                                //处理一下县区url重新组合.截取县区代码的前四位组合成：XX/XX/
+                                String t3 = results_td6.get(0).substring(0,2);
+                                String t4 = results_td6.get(0).substring(2,4);
+                                String t5 = results_td6.get(0).substring(4,6);
+//                                System.out.println(t3+"_"+t4+"_"+t5);
+                                //定义村url
+                                String village_url = url+t3+"/"+t4+"/"+t5+"/"+village_url_sub;//////////////////////////////////////////////////////////////url
+                                System.out.println("/村/"+village_url);
+//                                /////////////url处理完毕///////////////////////////////////////////////////////////////////
+                                //获取包含所有乡镇页面
+                                ArrayList<String>results_village = regexString(getHtml(village_url),"<tr.*? class='villagetr'>([\\s\\S]*?)</tr>");
+//                                System.out.println(results_village);
+                                for (String s4:results_village){
+                                    ArrayList<String>results_td8 = regexString(s4,"<td.*?>([\\s\\S]*?)</td>");
+//
+                                    if (results_td8.size()>0) {
+                                        //村代码
+                                        Long village_id = Long.valueOf(results_td8.get(0));//--------------------------
+//                                        System.out.println(village_id);
+                                        //城乡分类--------------------------------------------------------------------
+                                        String village_type = results_td8.get(1);
+//                                        System.out.println(village_type);
+                                        //村名
+                                        String village = results_td8.get(2);//-----------------------------------------
+//                                        System.out.println(village);
+                                        System.out.println(province+"->"+city+"->"+conuty+"->"+town+"->"+village);
+                                        System.out.println("中国第" + dddd++ + "个村");
+                                    }
+                                }
+                            }
                         }
                     }
-
                 }
-
-
             }
-//            System.out.println(results_td1);
         }
-
-
+        System.out.println("统计" + aaaa+"个市"+bbbb+"个县"+cccc+"个镇"+dddd + "个村");
     }
 
 }
