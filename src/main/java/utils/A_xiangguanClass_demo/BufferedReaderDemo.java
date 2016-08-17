@@ -1,4 +1,4 @@
-package utils.SpiderAll.A_xiangguanClass_demo;
+package utils.A_xiangguanClass_demo;
 
 import java.io.BufferedReader;
 import java.io.IOException;

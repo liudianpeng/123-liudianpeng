@@ -1,4 +1,4 @@
-package utils.SpiderAll.A_xiangguanClass_demo;
+package utils.A_xiangguanClass_demo;
 
 /**
  * Created by Peng on 2016/8/7.

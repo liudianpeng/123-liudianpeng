@@ -31,8 +31,9 @@ public class MySpidrSave {
                     "INSERT INTO wuliu_detail VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
 
             for (Wuliu wuliu:myWuliu){
-
-                ps.setInt(1, 1);
+                int i=0;
+                i=i++;
+                ps.setInt(1, i);
                 ps.setInt(2, 1);
                 ps.setString(3,wuliu.getOrgName());//name obj[1].toString());//name
                 ps.setString(4, wuliu.getDistFullName());

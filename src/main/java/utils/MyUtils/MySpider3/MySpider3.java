@@ -128,6 +128,7 @@ public class MySpider3 {
             int endIx = gethtml.indexOf(",\"total\"");
             /////////////////////////////////////////
             result = gethtml.substring(beginIx, endIx);
+            System.out.println(result);
 //                results.add(result);
             ////////////////////////////////////////////////////////////////////////////////////
             List<Wuliu> lists=gson.fromJson(result,new TypeToken<List<Wuliu>>(){}.getType());
@@ -162,8 +163,8 @@ public class MySpider3 {
 
 
     public static void main(String[] args) {
-
-        System.out.println(getWuliuList());
+        getWuliuList();
+//        System.out.println(getWuliuList());
 //            String url =null;
 //            String result = null;
 //            Gson gson = new Gson();
