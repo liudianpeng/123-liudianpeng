@@ -60,8 +60,8 @@
 //        cpds.setDriverClass( "org.postgresql.Driver"); // loads the jdbc
 //        // driver
 //        cpds.setJdbcUrl( "jdbc:postgresql://localhost/slackplatform3");
-//        cpds.setUser( "postgres");
-//        cpds.setPassword( "postgres");
+//        cpds.setUser( "Postgres");
+//        cpds.setPassword( "Postgres");
 //        Connection conn=cpds.getConnection();
 //        int i=1;
 //        conn.setAutoCommit(false);

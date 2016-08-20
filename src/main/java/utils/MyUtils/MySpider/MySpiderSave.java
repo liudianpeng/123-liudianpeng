@@ -24,7 +24,7 @@ public class MySpiderSave {
             //加载驱动
             Class.forName("org.postgresql.Driver");
             //得到连接
-            ct = DriverManager.getConnection("jdbc:postgresql://localhost:5432/test","postgres","postgres");
+            ct = DriverManager.getConnection("jdbc:postgresql://localhost:5432/z_mytest","Postgres","Postgres");
             ps = ct.prepareStatement(
                     "INSERT INTO wuliu_detail VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
             for (int i=0;i<mySpider.size();i++) {

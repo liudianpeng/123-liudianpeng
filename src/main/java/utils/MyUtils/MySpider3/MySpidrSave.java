@@ -26,7 +26,7 @@ public class MySpidrSave {
             //加载驱动
             Class.forName("org.postgresql.Driver");
             //得到连接
-            ct = DriverManager.getConnection("jdbc:postgresql://localhost:5432/test","postgres","postgres");
+            ct = DriverManager.getConnection("jdbc:postgresql://localhost:5432/test","Postgres","Postgres");
             ps = ct.prepareStatement(
                     "INSERT INTO wuliu_detail VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
 
