@@ -8,3 +8,4 @@ slackend-kos.iml
 slackend-wei-jail.iml
 node_modules
 npm-debug.log
+src/main/java/models/

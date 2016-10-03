@@ -1,0 +1,106 @@
+[
+  {
+    "name": "劳动岗",
+    "data": [
+      200,
+      134,
+      null
+    ]
+  },
+  {
+    "name": "监舍",
+    "data": [
+      45,
+     null,
+      null
+    ]
+  },
+  {
+    "name": "住院西",
+    "data": [
+      34,
+      null,
+      null
+    ]
+  },
+  {
+    "name": "住院东",
+    "data": [
+      22,
+      null,
+      null
+    ]
+  },
+  {
+    "name": "集训",
+    "data": [
+      55,
+      null,
+      null
+    ]
+  },
+  {
+    "name": "其他",
+    "data": [
+      67,
+      56,
+      98
+    ]
+  },
+  {
+    "name": "严管",
+    "data": [
+      null,
+      67,
+      null
+    ]
+  },
+  {
+    "name": "禁闭",
+    "data": [
+      null,
+      89,
+      null
+    ]
+  },
+  {
+    "name": "隔离控制",
+    "data": [
+      null,
+      121,
+      null
+    ]
+  },
+  {
+    "name": "单独关押",
+    "data": [
+      null,
+      141,
+      null
+    ]
+  },
+  {
+    "name": "外提",
+    "data": [
+      null,
+      null,
+      88
+    ]
+  },
+  {
+    "name": "保外",
+    "data": [
+      null,
+      null,
+      86
+    ]
+  },
+  {
+    "name": "外医",
+    "data": [
+      null,
+      null,
+      86
+    ]
+  }
+]

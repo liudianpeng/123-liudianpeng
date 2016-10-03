@@ -1,0 +1,14 @@
+table{border: 1px solid #ddd}
+th{padding: 4px;}
+td{border: 1px solid #DDD}
+.margin-left{margin-left: -2px;}
+.l-panel-topbar {
+    background:#d8d8d8 url('/assets/vendor/ligerui/lib/ligerUI/skins/Gray/images/ui/gridbar.jpg')  repeat-x;
+    height: 23px;
+    line-height: 23px;
+    border-bottom: 1px solid #D6D6D6;
+    width: 100%;
+    position: relative;
+}
+.l-grid-row-cell-inner{height: 28px;line-height: 28px}
+.l-bar-text{float: right}

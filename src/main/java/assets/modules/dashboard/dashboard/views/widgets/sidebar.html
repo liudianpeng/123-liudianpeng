@@ -1,0 +1,20 @@
+<div>
+    <ul class="list">
+        <li class="list-item" ms-repeat="directorys" ms-class="active-dir:currentAnchor === $val.name">
+            <a class="overdot list-item-link"
+               ms-click="scrollToTop($val.url)"
+               ms-attr-href="href"
+               ms-attr-title="getListItemTitle($val, $val.intro)">
+              {{$val.name}}
+            </a>
+        </li>
+    </ul>
+</div>
+<!--<input type="" name="" id="get_id"  ms-attr-value="{{getId}}" />-->
+<input type="hidden" name="" id="get_id"  ms-value="getId" />
+<!--<input type="" name="" id="get_id"  ms-attr-value="6419" />-->
+
+<!--区域管理-》人员状态页：<br />-->
+<!--获取来自iframe页<br />-->
+<!--面内的数据(用于测试）<br />{{activeCriminal}}-->
+
